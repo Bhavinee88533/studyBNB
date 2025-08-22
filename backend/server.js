@@ -6,8 +6,8 @@ const User = require("./models/user");
 const Host = require("./models/host");
 
 const app = express();
-const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/studybnbInfo";
-const port = process.env.PORT || 8080;
+const MONGO_URL = "mongodb://localhost:27017/studybnbInfo";
+const port = 8080;
 
 let currentUser = "";
 
