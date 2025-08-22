@@ -1,0 +1,7 @@
+body{
+  width: 100vw;
+  margin:0px;
+  background-color: #eff0f0;
+  user-select: none;
+  font-family: 'Times New Roman', Times, serif;
+}

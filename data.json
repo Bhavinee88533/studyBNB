@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Digital Stay PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "AAHNA PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Siya Girls PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Saraswati Niwas PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Sun Haven PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Royal Stay PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "St. Thomas Girls Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Raksha Girls Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Nalanda Living Student Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Chrome Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Nalanda Living PG (Male)",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "RLS Boys PG / Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "KCC Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3 / near Jagat Farm, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Farm Castle Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Lane no. 1, near Hero Motors Agency, Jagat Farm, Block E, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Happy Stay PG",
+    "email": "",
+    "contactNo": "9999328441 / 9711927996",
+    "type": "PG",
+    "address": "Jagat Farm, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Girls Hostel (premium near Jagat Farm)",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Near Jagat Farm Market, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Krishna PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block C, Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "J shine Homes PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Mothers PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Engineers Home PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Bhavyata's PG/Paying Guest for Girls",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "HariPriya Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Renting Rail PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Shree Shyam Girls PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Jai PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "House of PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "ASG Boys PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Mahtab Residency PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Alpha 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Royal Boys PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Unisex PG in Block F",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block F, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Grand Uy Living PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block F, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "PG for Boys – Fully Furnished",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block G, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "USN Stay PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block I, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Alice Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block F, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Guru PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block G, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "King’s Landing PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "P Y Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block I, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Gupta Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block G, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Purvanchal Girls and Boys PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Nandani Girls PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block H, Sector Alpha 2, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Sehgal's PG",
+    "email": "[email protected]",
+    "contactNo": "+91-9599714297",
+    "type": "PG",
+    "address": "D-23/176, Block B, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Both girls & boys accommodation, suitable for students & working professionals, rent ₹6,000",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Varsha PG / Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Amenities include in-house food, power backup, Wi-Fi, TV, parking; twin ₹8,500, triple ₹7,800, others ₹7,200",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Hotel Happy Stay Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Boys & girls hostel, double sharing ~₹7,800; amenities like Wi-Fi, parking, power backup, room cleaning",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Abhimanyu PG (Boys Hostel)",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Fully facilitated boys hostel, amenities include Wi-Fi, parking, power backup, AC; rent ~₹6,500",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Gamma PG (Modern, Spacious Male PG)",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block E, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Male PG with AC, food, power backup, Wi-Fi; offers single, double, triple rooms",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Home and Away (Girls PG)",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block C, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls PG, double sharing; rent ₹15,000–₹17,000 per room; includes amenities like fridge, water purifier, CCTV",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Ruby PG (Girls)",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block C, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls PG, ₹6,000–₹7,000 per bed; triple & double sharing; includes inverter (no AC), CCTV, washing machine, water purifier",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Siya PG (Girls)",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Block C, Gamma 1, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls PG, ₹7,500 per bed; triple sharing; facilities like washing machine, fridge, CCTV, near hospitals",
+    "images": ["./views/image.png"]
+  },
+   {
+    "name": "ARS Residency Boys Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Stanza Living Adelaide House",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "KR Singh PG Boys Residency",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Ostello Living PG/Paying Guest",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Saraswati Niwas Hostels",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Bose Cottage II",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Awal Akher Azim",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Kaushalya Residency",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Innovative Girls Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park II, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "",
+    "images": ["./views/image.png"]
+  },
+    {
+    "name": "Nalanda Living Student Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls hostel with AC rooms, Wi-Fi, parking, gym, power backup, room cleaning; rent ₹13,000+",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Chrome Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Coed, twin ₹16,000, triple ₹13,999, amenities: AC, food, Wi-Fi, power backup",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Sun Light Student Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Boys hostel; single ₹19,000, twin ₹15,000, triple ₹12,000; AC, food",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "The Royal Stay PG",
+    "email": "",
+    "contactNo": "",
+    "type": "PG",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls PG; single ₹18,000, twin ₹10,000, triple ₹8,000; amenities: TV, AC, power backup, Wi-Fi, food",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "St. Thomas Girls Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls hostel; single ₹15,000, twin ₹12,000, triple ₹10,000; amenities: AC, food, Wi-Fi, TV, power backup",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Shiv Boys Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Modern boys hostel; single ₹14,000, twin ₹10,000, triple ₹9,000, four ₹8,500; TV, AC, food, power backup, Wi-Fi",
+    "images": ["./views/image.png"]
+  },
+  {
+    "name": "Magadh Inn Girls Hostel",
+    "email": "",
+    "contactNo": "",
+    "type": "Hostel",
+    "address": "Knowledge Park 3, Greater Noida, Uttar Pradesh",
+    "city": "Greater Noida",
+    "description": "Girls hostel; single ₹30,000, twin ₹20,000, triple ₹15,000; AC, power backup, Wi-Fi",
+    "images": ["./views/image.png"]
+  }
+]
