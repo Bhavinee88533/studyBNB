@@ -1,11 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const path = require("path");
 const Listing = require("./models/listing");
 const User = require("./models/user");
 const Host = require("./models/host");
 
 const app = express();
-const MONGO_URL = "mongodb://localhost:27017/studybnbInfo";
+const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017/studybnbInfo";
+const port = process.env.PORT || 8080;
 
 let currentUser = "";
 
@@ -17,11 +19,13 @@ function format(name) {
 
 app.use(express.json({ limit: "10mb" }));
 
+// Connect to Mongo
 mongoose
   .connect(MONGO_URL)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 
+/* -------------------- API ROUTES -------------------- */
 app.get("/api/home", (req, res) => {
   res.json({ user: currentUser });
 });
@@ -40,7 +44,7 @@ app.get("/api/host-listings/:id", async (req, res) => {
   try {
     const hostId = req.params.id;
     const listings = await Listing.find({ hostId });
-    console.log(listings)
+    console.log(listings);
 
     if (!listings.length) {
       return res.status(404).json({ message: "No listings found" });
@@ -138,9 +142,13 @@ app.get("/api/listing/:id", async (req, res) => {
   }
 });
 
-app.get("/", (req, res) => {
-  res.send("working");
+/* -------------------- SERVE FRONTEND -------------------- */
+const frontendPath = path.join(__dirname, "../frontend/dist");
+app.use(express.static(frontendPath));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(frontendPath, "index.html"));
 });
 
-const port = 8080;
+/* -------------------- START SERVER -------------------- */
 app.listen(port, () => console.log(`Server listening on port ${port}`));
