@@ -6,7 +6,7 @@ const User = require("./models/user");
 const Host = require("./models/host");
 
 const app = express();
-const MONGO_URL = "mongodb://localhost:27017/studybnbInfo";
+const MONGO_URL = "mongodb+srv://bhavineesingh88533_db_user:<db_password>@cluster0.kkrlg50.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"||"mongodb://localhost:27017/studybnbInfo";
 const port = 8080;
 
 let currentUser = "";
