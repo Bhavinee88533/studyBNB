@@ -6,7 +6,7 @@ import Logo from "./assets/Study.png";
 import SideBar from "./assets/sidebar-2-32.png";
 import "./hostLogin.css";
 
-export default function HostLogin({ type }) {
+export default function HostLogin({ type, setType }) {
   const { id } = useParams();
   const [user, setUser] = useState("");
   const [listings, setListings] = useState([]);
@@ -26,7 +26,8 @@ export default function HostLogin({ type }) {
 
   const handleLogout = () => {
     localStorage.clear();
-    navigate("/");
+    setType(""); 
+    navigate("/login");
   };
 
   useEffect(() => {
@@ -47,7 +48,7 @@ export default function HostLogin({ type }) {
         setListings(data);
 
         if (data.length > 0) {
-          setUser(`Host-${id.substring(0, 5)}`); 
+          setUser(`Host-${id.substring(0, 5)}`);
         } else {
           setUser("");
         }
@@ -101,9 +102,13 @@ export default function HostLogin({ type }) {
               <div className="sidebar-option" onClick={handleFindHost}>
                 Find a co-host
               </div>
-              <div className="sidebar-option" onClick={handleLogout}>
-                Logout
-              </div>
+
+              {/* Show Logout only if logged in */}
+              {type && (
+                <div className="sidebar-option" onClick={handleLogout}>
+                  Logout
+                </div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>
@@ -120,27 +125,26 @@ export default function HostLogin({ type }) {
       </motion.div>
 
       <div className="host-login-container">
-  <h1>Welcome, {user || "Host"}</h1>
-  <h2>Your Hosted Spaces</h2>
+        <h1>Welcome, {user || "Host"}</h1>
+        <h2>Your Hosted Spaces</h2>
 
-  {listings.length > 0 ? (
-    <div className="listing-cards">
-      {listings.map((listing) => (
-        <div key={listing._id} className="listing-card">
-          <h3>{listing.name}</h3>
-          <p>{listing.city}</p>
-        </div>
-      ))}
-    </div>
-  ) : (
-    <p>You haven't hosted any places yet.</p>
-  )}
+        {listings.length > 0 ? (
+          <div className="listing-cards">
+            {listings.map((listing) => (
+              <div key={listing._id} className="listing-card">
+                <h3>{listing.name}</h3>
+                <p>{listing.city}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p>You haven't hosted any places yet.</p>
+        )}
 
-  <button className="host-new-place-btn" onClick={handleBecomeHost}>
-    + Host a New Place
-  </button>
-</div>
-
+        <button className="host-new-place-btn" onClick={handleBecomeHost}>
+          + Host a New Place
+        </button>
+      </div>
     </>
   );
 }

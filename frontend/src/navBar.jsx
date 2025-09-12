@@ -7,16 +7,18 @@ import { useNavigate } from "react-router-dom";
 import "./navbar.css";
 import "./index.css";
 
-export default function Navbar({ setCity, setAddress, setSelectedType }) {
+export default function Navbar({ setCity, setAddress, setSelectedType, type, setType }) {
   const [cityLocal, setCityLocal] = useState("");
   const [addressLocal, setAddressLocal] = useState("");
   const [slidebarOpen, setSlidebarOpen] = useState(false);
   const slidebarRef = useRef(null);
   const navigate = useNavigate();
 
-  // Store user type and ID from localStorage
-  const userType = localStorage.getItem("userType");
-  const userId = localStorage.getItem("userId");
+  function handleLogout() {
+    localStorage.clear();
+    setType("");
+    navigate("/");
+  }
 
   function handleSearch(e) {
     e.preventDefault();
@@ -25,16 +27,17 @@ export default function Navbar({ setCity, setAddress, setSelectedType }) {
     navigate("/search");
   }
 
-  function handleTypeClick(type) {
-    setSelectedType(type);
+  function handleTypeClick(selected) {
+    setSelectedType(selected);
     navigate("/search");
   }
 
   function handleHostNavigation() {
-    if (userType === "Host" && userId) {
+    const userId = localStorage.getItem("userId");
+    if (type === "Host" && userId) {
       navigate(`/host/${userId}`); // Host dashboard
     } else {
-      navigate("/host"); // Host form for new hosts
+      navigate("/host"); // Host form
     }
   }
 
@@ -131,18 +134,19 @@ export default function Navbar({ setCity, setAddress, setSelectedType }) {
               <strong>Become a host</strong>
               <p>It's easy to start hosting and earn extra income.</p>
             </div>
-            <div
-              className="sidebar-option"
-              onClick={() => navigate("/findHost")}
-            >
+            <div className="sidebar-option" onClick={() => navigate("/findHost")}>
               Find a co-host
             </div>
-            <div
-              className="sidebar-option"
-              onClick={() => navigate("/login")}
-            >
-              Log in or sign up
-            </div>
+
+            {type ? (
+              <div className="sidebar-option" onClick={handleLogout}>
+                Logout
+              </div>
+            ) : (
+              <div className="sidebar-option" onClick={() => navigate("/login")}>
+                Log in or sign up
+              </div>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
