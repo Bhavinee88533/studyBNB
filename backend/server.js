@@ -6,8 +6,10 @@ const User = require("./models/user");
 const Host = require("./models/host");
 
 const app = express();
-const MONGO_URL = "mongodb+srv://bhavineesingh88533_db_user:mzlVp2jRqavgzeda@cluster0.kkrlg50.mongodb.net/studybnbInfo?retryWrites=true&w=majority";
-const port = 8080;
+require("dotenv").config();
+const MONGO_URL = process.env.MONGO_URL;
+const port = process.env.PORT || 8080;
+
 
 let currentUser = "";
 
